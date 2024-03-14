@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-no-dockerfile-bobt
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-861/nodejs-no-dockerfile-bobt@sha256:e27764be8a6330802a5045f16c2f4855cdc60b804dcc2826a36926e9e43dd896
         name: my-nodejs
         ports:
         - containerPort: 3001
