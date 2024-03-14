@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: maven-hello-world-zvgk
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-861/maven-hello-world-zvgk@sha256:ecbaf73e92f508c2003a77720e3049280a713e8cf8860785e233e688db08374a
         name: my-java-quarkus
         ports:
         - containerPort: 8081
