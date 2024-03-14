@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: fbc-sample-repo-sd0s
     spec:
       containers:
-      - image: fbc:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-861/fbc-sample-repo-sd0s@sha256:cb61b77df8b7d5b4ae77c72b8eba63f13dfd35eee749dff77bd41e6984de8210
         name: fbc
         ports:
         - containerPort: 50051
